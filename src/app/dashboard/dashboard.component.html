@@ -1,0 +1,9 @@
+<h2>Top Technologies</h2>
+<div class="technologies-menu">
+  <a *ngFor="let technology of technologies"
+  routerLink="/detail/{{technology.id}}">
+    {{technology.name}}
+  </a>
+</div>
+
+<app-technology-search></app-technology-search>
