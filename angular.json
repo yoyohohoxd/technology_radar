@@ -32,7 +32,6 @@
             ],
             "styles": [
               "src/styles.scss",
-              "node_modules/bulma/css/budsadlma.css",
               "src/assets/fonts/Apis Web/EOT-TT/apis-font.css"
             ],
             "scripts": []
